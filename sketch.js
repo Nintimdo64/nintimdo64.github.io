@@ -70,7 +70,7 @@ let turtle;
 //Related to Loading Screen
 let lives = 5;
 let wait;
-let playerScore = 8500;
+let playerScore = 0;
 
 //Main menu scrolling variables
 let bgx1 = 0;
@@ -464,7 +464,6 @@ function drawScoreBoardScreen(){
         text(gameData.scoreboardData.lives[i-1], W/2 + 150, 120 + 20*i);
       }
     }
-    rickroll.show();
     rickroll.size(480, 270);
     image(rickroll, W/2 - 240, 440, 480, 270);
     rickroll.loop();
