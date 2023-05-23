@@ -1071,7 +1071,7 @@ if (player.overlap(goalSprite) && !goalSound.isPlaying()){
 function playButtonClicked() {
   player.position.x = gameData.playerData.startX;
   player.position.y = gameData.playerData.startY;
-  currentScreen = SCOREBOARD;
+  currentScreen = LEVEL1;
 }
 //Replay clicked
 function replayButtonClicked() {
